@@ -1,7 +1,5 @@
 # replayagent
 
-[![CI](https://github.com/SlateGitOrg/replayagent/actions/workflows/ci.yml/badge.svg)](https://github.com/SlateGitOrg/replayagent/actions/workflows/ci.yml)
-
 A single-node durable execution runtime for LLM agents, in the style of Temporal.
 Workflows are ordinary Python functions. Every LLM call, tool call and other side effect
 runs as an *activity* whose result goes into an event-sourced SQLite history. If the
@@ -340,12 +338,3 @@ The full list with costs is in [DECISIONS.md](DECISIONS.md). The ones that shape
 ## License
 
 MIT - see [LICENSE](LICENSE).
-
-## Maintainer
-
-Dev Bhatt maintains this project, focusing on reliable automation, controls and data
-workflows. He has over six years of professional experience building automated pipelines,
-reconciliation processes and analytics solutions using Python, SQL, PySpark and related
-data tools.
-
-Contact: [Email](mailto:devbhattwork27@gmail.com) | [LinkedIn](https://linkedin.com/in/dev-bhatt27)
